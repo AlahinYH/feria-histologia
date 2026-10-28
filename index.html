@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#10152b">
+  <meta name="description" content="Feria de Ciencia y Conocimiento - Histología de la Universidad Autónoma Tomás Frías.">
+  <title>Feria de Ciencia y Conocimiento | Histología UATF</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="Ir al inicio">
+      <span class="brand-mark" aria-hidden="true">✳</span>
+      <span><strong>UATF</strong><small>Facultad de Medicina</small></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="mainNav">☰</button>
+    <nav class="main-nav" id="mainNav">
+      <a href="#evento">El evento</a>
+      <a href="#experiencia">Qué encontrarás</a>
+      <a href="#galeria">Galería</a>
+      <a class="nav-cta" href="#ubicacion">Cómo llegar</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <p class="eyebrow"><span class="eyebrow-line"></span> UNIVERSIDAD AUTÓNOMA TOMÁS FRÍAS</p>
+        <p class="hero-kicker">CIENCIA · DESCUBRIMIENTO · CONOCIMIENTO</p>
+        <h1>FERIA DE CIENCIA<br><span>Y CONOCIMIENTO</span></h1>
+        <div class="hero-subtitle"><span class="subtitle-dot"></span> HISTOLOGÍA</div>
+        <p class="hero-description">Descubre el fascinante mundo de los tejidos que forman la vida. Una experiencia para observar, aprender y sorprenderte con la ciencia.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#evento">Conoce la feria <span aria-hidden="true">↘</span></a>
+          <a class="button button-ghost" href="#ubicacion">Ver ubicación</a>
+        </div>
+        <div class="hero-meta">
+          <div><span class="meta-icon">◷</span><span><small>FECHA</small><strong>31 OCTUBRE 2026</strong></span></div>
+          <div><span class="meta-icon">⌖</span><span><small>HORARIO</small><strong>09:00 — 16:00</strong></span></div>
+        </div>
+      </div>
+      <div class="hero-note"><span class="pulse"></span> EXPLORA LO INVISIBLE</div>
+      <div class="hero-index">01 <span>/</span> 04</div>
+    </section>
+
+    <section class="countdown-section" aria-labelledby="countdownTitle">
+      <div>
+        <p class="section-label">MARCA LA FECHA</p>
+        <h2 id="countdownTitle">La ciencia te espera.</h2>
+      </div>
+      <div class="countdown" id="countdown" aria-live="polite">
+        <div class="time-unit"><strong id="days">--</strong><span>DÍAS</span></div>
+        <div class="time-unit"><strong id="hours">--</strong><span>HORAS</span></div>
+        <div class="time-unit"><strong id="minutes">--</strong><span>MINUTOS</span></div>
+        <div class="time-unit"><strong id="seconds">--</strong><span>SEGUNDOS</span></div>
+      </div>
+      <p class="countdown-message" id="countdownMessage">Prepárate para descubrir lo que no se ve a simple vista.</p>
+    </section>
+
+    <section class="section event-section" id="evento">
+      <div class="section-heading">
+        <p class="section-label">01 / SOBRE LA FERIA</p>
+        <h2>Una mirada al universo<br><span>microscópico.</span></h2>
+      </div>
+      <div class="event-grid">
+        <div class="event-copy">
+          <p>La <strong>Feria de Ciencia y Conocimiento – Histología</strong> es una oportunidad para acercarse al estudio de los tejidos del cuerpo y comprender cómo se organiza la vida a nivel microscópico.</p>
+          <p>Ven a conocer el trabajo académico de la carrera de Medicina de la Universidad Autónoma Tomás Frías y disfruta de una jornada dedicada a la curiosidad, la observación y el aprendizaje.</p>
+          <div class="event-callout"><span>✦</span><p>La ciencia empieza cuando nos detenemos a observar.</p></div>
+        </div>
+        <div class="event-details">
+          <div class="detail-row"><span class="detail-icon">▦</span><div><small>FECHA</small><strong>Sábado, 31 de octubre de 2026</strong></div></div>
+          <div class="detail-row"><span class="detail-icon">◷</span><div><small>HORARIO</small><strong>De 09:00 a 16:00</strong></div></div>
+          <div class="detail-row"><span class="detail-icon">⌖</span><div><small>LUGAR</small><strong>Predios de la iglesia de San Bernardo</strong></div></div>
+          <div class="detail-row"><span class="detail-icon">◎</span><div><small>DIRIGIDO A</small><strong>Público en general</strong></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="experience-section" id="experiencia">
+      <div class="section section-inner">
+        <div class="section-heading centered">
+          <p class="section-label">02 / APRENDE Y DESCUBRE</p>
+          <h2>La vida en cada <span>detalle.</span></h2>
+          <p class="heading-description">Acércate a la histología desde una perspectiva visual, didáctica y fascinante.</p>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card">
+            <div class="feature-number">01</div><div class="feature-symbol">⌕</div>
+            <h3>Observa</h3><p>Explora la belleza de las estructuras que componen los tejidos del organismo.</p>
+          </article>
+          <article class="feature-card featured-card">
+            <div class="feature-number">02</div><div class="feature-symbol">✧</div>
+            <h3>Aprende</h3><p>Conecta conceptos de histología con ejemplos visuales y explicaciones accesibles.</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-number">03</div><div class="feature-symbol">⌘</div>
+            <h3>Comparte</h3><p>Disfruta una jornada de ciencia, conocimiento y curiosidad para todas las edades.</p>
+          </article>
+        </div>
+        <p class="disclaimer">Las actividades específicas se publicarán cuando la organización confirme el programa oficial.</p>
+      </div>
+    </section>
+
+    <section class="section gallery-section" id="galeria">
+      <div class="gallery-heading">
+        <div class="section-heading">
+          <p class="section-label">03 / GALERÍA MICROSCÓPICA</p>
+          <h2>Un mundo oculto<br><span>a simple vista.</span></h2>
+        </div>
+        <p>Colores, formas y patrones que revelan la complejidad de los tejidos vivos.</p>
+      </div>
+      <div class="gallery-grid">
+        <figure class="gallery-item gallery-large">
+          <img src="https://images.unsplash.com/photo-1579154204601-01588f351e67?auto=format&fit=crop&w=1200&q=85" alt="Investigación científica en laboratorio" loading="lazy">
+          <figcaption><span>01</span> Ciencia en el laboratorio</figcaption>
+        </figure>
+        <figure class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&w=900&q=85" alt="Microscopio utilizado para observar muestras" loading="lazy">
+          <figcaption><span>02</span> Observación microscópica</figcaption>
+        </figure>
+        <figure class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1530210124550-912dc1381cb8?auto=format&fit=crop&w=900&q=85" alt="Material e investigación de ciencias de la salud" loading="lazy">
+          <figcaption><span>03</span> Curiosidad científica</figcaption>
+        </figure>
+      </div>
+      <p class="gallery-note">Imágenes ilustrativas. Se pueden reemplazar por fotografías propias de la feria y microfotografías histológicas autorizadas.</p>
+    </section>
+
+    <section class="location-section" id="ubicacion">
+      <div class="location-content">
+        <p class="section-label">04 / NOS ENCONTRAMOS AQUÍ</p>
+        <h2>¡Te esperamos<br><span>en la feria!</span></h2>
+        <p>Ven con tu familia, amigos o compañeros y comparte una jornada dedicada a la ciencia y el conocimiento.</p>
+        <div class="location-detail"><span class="detail-icon">⌖</span><div><small>LUGAR DEL EVENTO</small><strong>Predios de la iglesia de San Bernardo</strong></div></div>
+        <div class="location-detail"><span class="detail-icon">◷</span><div><small>HORARIO</small><strong>31 de octubre · 09:00 a 16:00</strong></div></div>
+        <a class="button button-primary" href="https://www.google.com/maps/search/?api=1&query=Iglesia+San+Bernardo+Potosi+Bolivia" target="_blank" rel="noopener noreferrer">Buscar en Google Maps ↗</a>
+        <p class="location-note">Verifica la ubicación exacta con la organización antes del evento.</p>
+      </div>
+      <div class="location-art" aria-hidden="true">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="orbit orbit-three"></div>
+        <div class="cell cell-one"></div><div class="cell cell-two"></div><div class="cell cell-three"></div>
+        <div class="location-art-label">HISTOLOGÍA <span>·</span> UATF</div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand footer-brand" href="#inicio"><span class="brand-mark">✳</span><span><strong>UATF</strong><small>Facultad de Medicina</small></span></a>
+    <p>Feria de Ciencia y Conocimiento — Histología</p>
+    <p class="copyright">© <span id="year"></span> · Universidad Autónoma Tomás Frías</p>
+  </footer>
+</body>
+</html>
