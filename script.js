@@ -22,7 +22,7 @@ if (menuToggle && mainNav) {
 
 // Cuenta regresiva: fecha y hora local de Bolivia (UTC-4).
 // Cambia esta fecha si la organización modifica el evento.
-const eventDate = new Date("2026-10-31T09:00:00-04:00");
+const eventDate = new Date("2026-11-07T09:00:00-04:00");
 const countdownMessage = document.querySelector("#countdownMessage");
 
 function updateCountdown() {
